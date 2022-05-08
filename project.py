@@ -54,7 +54,7 @@ while True:
 	for detection in detections:
 		print(detection)
 	
-	##turn the detections from text to speech
+	# turn the detections from text to speech
 	if len(detections) != 0:
 		tts = gtts.gTTS(net.GetClassDesc(detections[0].ClassID))
 		tts.save("detection.mp3")
