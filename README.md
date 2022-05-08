@@ -41,3 +41,6 @@ sudo ldconfig
 python3 project.py /dev/video0
 # Make sure you are connected to the internet while running the code.
 # If you want to see what the camera is showing, make sure you run the code in headed mode.
+
+# Video demonstration below
+https://youtu.be/aNS7IQPl4QQ
